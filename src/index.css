@@ -1,6 +1,17 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  
+}
+
+html {
+  background-image: url(./assets/images/ml-background-muted.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 ol, ul {
@@ -47,4 +58,6 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+  font-size: 225px;
+  color: white; 
 }

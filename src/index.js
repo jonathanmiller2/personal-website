@@ -71,7 +71,7 @@ class Board extends React.Component {
   }
 }
 
-class Game extends React.Component {
+class Base extends React.Component {
   render() {
     return (
       <div className="game">
@@ -79,8 +79,18 @@ class Game extends React.Component {
           <Board />
         </div>
         <div className="game-info">
-          <div>{/* status */}</div>
-          <ol>{/* TODO */}</ol>
+          <div>Jonathan Miller</div>
+          <div>AA</div>
+          <div>AA</div>
+          <div>AA</div>
+          <div>AA</div>
+          <div>AA</div>
+          <div>AA</div>
+          <div>AA</div>
+          <div>AA</div>
+          <div>AA</div>
+          <div>AA</div>
+          <div>AA</div>
         </div>
       </div>
     );
@@ -110,6 +120,6 @@ function calculateWinner(squares) {
 // ========================================
 
 ReactDOM.render(
-  <Game />,
+  <Base />,
   document.getElementById('root')
 );
