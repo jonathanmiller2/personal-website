@@ -75,10 +75,7 @@ class Base extends React.Component {
   render() {
     return (
       <div className="game">
-        <div className="game-board">
-          <Board />
-        </div>
-        <div className="game-info">
+        <div className="name-display">
           <div>Jonathan Miller</div>
           <div>AA</div>
           <div>AA</div>

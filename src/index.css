@@ -43,6 +43,12 @@ ol, ul {
   width: 34px;
 }
 
+.name-display {
+  margin-left: 20px;
+  font-size:50px;
+  color:white;
+}
+
 .square:focus {
   outline: none;
 }
