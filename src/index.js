@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
+
+
 function Square(props) {
   return (
     <button className="square" onClick={props.onClick}>
@@ -9,6 +12,13 @@ function Square(props) {
     </button>
   );
 }
+/*
+class ScrollerButton() extends React.Component {
+	handleClick() = () => {
+
+	}
+}
+*/
 
 class Board extends React.Component {
   constructor(props) {
@@ -78,13 +88,14 @@ class Base extends React.Component {
         <div className="name-display">
           <div>Jonathan Miller</div>
           <div>AA</div>
+          <a href="#C4">Jump to Chapter 4</a>
           <div>AA</div>
           <div>AA</div>
           <div>AA</div>
           <div>AA</div>
           <div>AA</div>
-          <div>AA</div>
-          <div>AA</div>
+          <div>BB</div>
+          <div id="C4">CC</div>
           <div>AA</div>
           <div>AA</div>
           <div>AA</div>

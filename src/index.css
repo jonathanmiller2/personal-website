@@ -45,7 +45,7 @@ ol, ul {
 
 .name-display {
   margin-left: 20px;
-  font-size:50px;
+  font-size:200px;
   color:white;
 }
 
@@ -60,10 +60,11 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  font-size: 400px;
 }
 
 .game-info {
   margin-left: 20px;
-  font-size: 225px;
+  font-size: 400px;
   color: white; 
 }
