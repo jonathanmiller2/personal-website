@@ -7,6 +7,12 @@ class Base extends React.Component {
   render() {
     return (
     <div className = "main">
+    	<div id = "title-screen">
+    		<div className = "container">
+    			<h1>Jonathan Miller</h1>
+    			<h2>Please kill me</h2>
+    		</div>
+    	</div>
     	<div className = "nav-bar">
     		<ul>
     			<li>
@@ -15,8 +21,7 @@ class Base extends React.Component {
     		</ul>
     	</div>
         <div className="spacing">
-          <div>Jonathan Miller</div>
-          <div>AA</div>
+          <div>Spacing</div>
           <div>Spacing</div>
           <div>Spacing</div>
           <div>Spacing</div>
