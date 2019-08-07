@@ -12,11 +12,14 @@ class Base extends React.Component {
     			<h1>Jonathan Miller</h1>
     			<h2>Please kill me</h2>
     		</div>
+    		<a href="#/profile" className = "nav down-button">
+    			<span className = "down-arrow"></span>
+    		</a>
     	</div>
-    	<div className = "nav-bar">
+    	<div className = "nav nav-bar">
     		<ul>
     			<li>
-    				<a href="#/profile" className="button">Jump to profile</a>
+    				<a href="#/profile" className="section-button">Jump to profile</a>
     			</li>
     		</ul>
     	</div>
