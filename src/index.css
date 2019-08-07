@@ -47,14 +47,14 @@ html {
   -o-background-size: cover;
   background-size: cover;
 
-  animation: shake 0.5s;
+  animation: shake .85s;
   animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-  0% { transform: translateY(-10%); }
-  50% { transform: translateY(0%); }
-  100% { transform: translateY(-10%); }
+  0% { transform: translateY(0%); }
+  50% { transform: translateY(10%); }
+  100% { transform: translateY(0%); }
 }
 
 .section-button {
