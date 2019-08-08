@@ -2,39 +2,49 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+import profilepic from './assets/images/profile-pic.png'
 
 class Base extends React.Component {
   render() {
     return (
-    <div className = "main">
+    <div class = "main">
     	<div id = "title-screen">
-    		<div className = "container">
+    		<div class = "vertical-container vertically-centered-in-screen">
     			<h1>Jonathan Miller</h1>
-    			<h2>Please kill me</h2>
+    			<p class="subtitle">Interactive Resume</p>
     		</div>
-    		<a href="#/profile" className = "nav down-button">
-    			<span className = "down-arrow"></span>
+    		<a href="#profile-page" class = "nav down-button">
+    			<span class = "down-arrow" />
     		</a>
     	</div>
-    	<div className = "nav nav-bar">
+    	<div class = "nav nav-bar">
     		<ul>
     			<li>
-    				<a href="#/profile" className="section-button">Jump to profile</a>
+    				<a href="#profile-page" class="section-button">Profile</a>
     			</li>
     		</ul>
     	</div>
-        <div className="spacing">
-          <div>Spacing</div>
-          <div>Spacing</div>
-          <div>Spacing</div>
-          <div>Spacing</div>
-          <div>Spacing</div>
-          <div>Spacing</div>
-          <div>Spacing</div>
-          <div id="/profile">CC</div>
-          <div>AA</div>
-          <div>AA</div>
-          <div>AA</div>
+    	
+    	
+    	<div id = "profile-page">
+    		<div class = "vertical-container">
+    			<h2>Profile</h2>
+    			<p class="subtitle">Software Dev / Industrial Engineer</p>
+    			<hr />
+    			<div class = "horizontal-container">
+    				<div class = "column">
+    					<h3>About Me</h3>
+    					<p> But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? </p>
+    				</div>
+    				<div class = "column">
+    					<img id='profile-pic' src= {profilepic} alt="Profile Picture" />
+    				</div>
+    				<div class = "column">
+    					<h3>Contact Info</h3>
+    					<p> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammeled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse.</p>
+    				</div>
+    			</div>
+    		</div>
         </div>
       </div>
     );
