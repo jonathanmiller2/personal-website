@@ -11,7 +11,7 @@ class Base extends React.Component {
     	<div id = "title-screen">
     		<div class = "vertical-container vertically-centered-in-screen">
     			<h1>Jonathan Miller</h1>
-    			<p class="subtitle">Interactive Resume</p>
+    			<p class="title-screen-subtitle">Interactive Resume</p>
     		</div>
     		<a href="#profile-page" class = "nav down-button">
     			<span class = "down-arrow" />
@@ -22,11 +22,23 @@ class Base extends React.Component {
     			<li>
     				<a href="#profile-page" class="section-button">Profile</a>
     			</li>
+    			<li>
+    				<a href="#projects-page" class="section-button">Projects</a>
+    			</li>
+    			<li>
+    				<a href="#skills-page" class="section-button">Skills</a>
+    			</li>
+    			<li>
+    				<a href="#history-page" class="section-button">History</a>
+    			</li>
+    			<li>
+    				<a href="#contact-page" class="section-button">Contact</a>
+    			</li>
     		</ul>
     	</div>
     	
     	
-    	<div id = "profile-page">
+    	<div id = "profile-page" class = "white-block">
     		<div class = "vertical-container">
     			<h2>Profile</h2>
     			<p class="subtitle">Software Dev / Industrial Engineer</p>
@@ -34,17 +46,61 @@ class Base extends React.Component {
     			<div class = "horizontal-container">
     				<div class = "column">
     					<h3>About Me</h3>
-    					<p> But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? </p>
+    					<p> But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </p>
     				</div>
     				<div class = "column">
-    					<img id='profile-pic' src= {profilepic} alt="Profile Picture" />
+    					<img id='profile-pic' src={profilepic} alt="Profile Picture" />
     				</div>
     				<div class = "column">
-    					<h3>Contact Info</h3>
-    					<p> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammeled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse.</p>
+    					<h3>Details</h3>
+    					<p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>
     				</div>
     			</div>
     		</div>
+        </div>
+
+        <div id = "projects-page" class = "grey-block">
+        	<div class = "vertical-container">
+        		<h2>Projects</h2>
+        		<p class = "subtitle">Projects projects projects projects</p>
+        		<hr />
+        	</div>
+        </div>
+
+        <div id = "skills-page" class = "white-block">
+        	<div class = "vertical-container">
+        		<h2>Skills</h2>
+        		<p class = "subtitle">Skills skills skills skills skills skills</p>
+        		<hr />
+        	</div>
+        </div>
+
+        <div id = "history-page" class = "grey-block">
+        	<div class = "vertical-container">
+    			<h2>History</h2>
+    			<p class="subtitle">History history history history history</p>
+    			<hr />
+    			<h3>Education</h3>
+    			<div class = "horizontal-container">
+    				<div class = "column-33">
+    					<h4>University of Oklahoma</h4>
+    					<p class = "date">Aug 2018 - Present</p>
+    				</div>
+    				<div class = "column">
+    					<strong>Bachelors - Industrial and Systems Engineering Analytics</strong>
+    					<p>Minor in Computer Science</p>
+    					<p>College info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college college info college info college info college info college info college info college info</p>
+    				</div>
+    			</div>
+    		</div>
+        </div>
+
+        <div id = "contact-page" class = "white-block">
+        	<div class = "vertical-container">
+        		<h2>Contact</h2>
+        		<p class = "subtitle"> Contacts contact contact contact contact</p>
+        		<hr />
+        	</div>
         </div>
       </div>
     );
