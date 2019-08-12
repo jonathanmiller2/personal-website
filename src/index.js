@@ -69,6 +69,44 @@ class Base extends React.Component {
         		<h2>Projects</h2>
         		<p class = "subtitle">Projects projects projects projects</p>
         		<hr />
+                <h3>Programming</h3>
+                <div class = "horizontal-container">
+                    <div class = "column-33">
+                        <h4>Project Name Project Name</h4>
+                        <p class = "date">Aug 2018 - Present</p>
+                    </div>
+                    <div class = "column">
+                        <strong>Descriptive Blurb Descriptive Blurb Descriptive Blurb</strong>
+                        <p>Main detail</p>
+                        <p>Other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail</p>
+                    </div>
+                </div>
+                <hr />
+                <h3>Product Development</h3>
+                <div class = "horizontal-container">
+                    <div class = "column-33">
+                        <h4>Project Name Project Name</h4>
+                        <p class = "date">Aug 2018 - Present</p>
+                    </div>
+                    <div class = "column">
+                        <strong>Descriptive Blurb Descriptive Blurb Descriptive Blurb</strong>
+                        <p>Main detail</p>
+                        <p>Other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail</p>
+                    </div>
+                </div>
+                <hr />
+                <h3>Screaming Eternally Into The Abyss</h3>
+                <div class = "horizontal-container">
+                    <div class = "column-33">
+                        <h4>Project Name Project Name</h4>
+                        <p class = "date">Jan 0001 - Present</p>
+                    </div>
+                    <div class = "column">
+                        <strong>Descriptive Blurb Descriptive Blurb Descriptive Blurb</strong>
+                        <p>Main detail</p>
+                        <p>Other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail</p>
+                    </div>
+                </div>
         	</div>
         </section>
 
