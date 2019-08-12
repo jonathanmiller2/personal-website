@@ -4,11 +4,16 @@ import './index.css';
 
 import profilepic from './assets/images/profile-pic.png'
 
+import emailicon from './assets/images/email-icon.png'
+import phoneicon from './assets/images/phone-icon.png'
+import linkedinicon from './assets/images/linkedin-icon.png'
+import githubicon from './assets/images/github-icon.png'
+
 class Base extends React.Component {
   render() {
     return (
     <div class = "main">
-    	<div id = "title-screen">
+    	<section id = "title-screen">
     		<div class = "vertical-container vertically-centered-in-screen">
     			<h1>Jonathan Miller</h1>
     			<p class="title-screen-subtitle">Interactive Resume</p>
@@ -16,8 +21,8 @@ class Base extends React.Component {
     		<a href="#profile-page" class = "nav down-button">
     			<span class = "down-arrow" />
     		</a>
-    	</div>
-    	<div class = "nav nav-bar">
+    	</section>
+    	<section class = "nav nav-bar">
     		<ul>
     			<li>
     				<a href="#profile-page" class="section-button">Profile</a>
@@ -35,10 +40,10 @@ class Base extends React.Component {
     				<a href="#contact-page" class="section-button">Contact</a>
     			</li>
     		</ul>
-    	</div>
+    	</section>
     	
     	
-    	<div id = "profile-page" class = "white-block">
+    	<section id = "profile-page" class = "white block">
     		<div class = "vertical-container">
     			<h2>Profile</h2>
     			<p class="subtitle">Software Dev / Industrial Engineer</p>
@@ -49,7 +54,7 @@ class Base extends React.Component {
     					<p> But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </p>
     				</div>
     				<div class = "column">
-    					<img id='profile-pic' src={profilepic} alt="Profile Picture" />
+    					<img class='pic' src={profilepic} alt="Profile Picture" />
     				</div>
     				<div class = "column">
     					<h3>Details</h3>
@@ -57,25 +62,25 @@ class Base extends React.Component {
     				</div>
     			</div>
     		</div>
-        </div>
+        </section>
 
-        <div id = "projects-page" class = "grey-block">
+        <section id = "projects-page" class = "grey block">
         	<div class = "vertical-container">
         		<h2>Projects</h2>
         		<p class = "subtitle">Projects projects projects projects</p>
         		<hr />
         	</div>
-        </div>
+        </section>
 
-        <div id = "skills-page" class = "white-block">
+        <section id = "skills-page" class = "white block">
         	<div class = "vertical-container">
         		<h2>Skills</h2>
         		<p class = "subtitle">Skills skills skills skills skills skills</p>
         		<hr />
         	</div>
-        </div>
+        </section>
 
-        <div id = "history-page" class = "grey-block">
+        <section id = "history-page" class = "grey block">
         	<div class = "vertical-container">
     			<h2>History</h2>
     			<p class="subtitle">History history history history history</p>
@@ -87,21 +92,55 @@ class Base extends React.Component {
     					<p class = "date">Aug 2018 - Present</p>
     				</div>
     				<div class = "column">
-    					<strong>Bachelors - Industrial and Systems Engineering Analytics</strong>
+    					<strong>Bachelor - Industrial and Systems Engineering Analytics</strong>
     					<p>Minor in Computer Science</p>
     					<p>College info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college college info college info college info college info college info college info college info</p>
     				</div>
     			</div>
     		</div>
-        </div>
+        </section>
 
-        <div id = "contact-page" class = "white-block">
+        <footer id = "contact-page" class = "black block">
         	<div class = "vertical-container">
         		<h2>Contact</h2>
         		<p class = "subtitle"> Contacts contact contact contact contact</p>
         		<hr />
+        		<div class = "horizontal-container">
+    				<div class = "column">
+                        <ul>
+                            <li>
+                                <a href="mailto:jonathanmiller2@hotmail.com" class="contact contact-button">
+                                    <img src={emailicon} alt="E-Mail: " />
+                                    <p class>jonathanmiller2@hotmail.com</p>
+                                </a>
+                            </li>
+                            <li>
+                                <div class = "contact">
+                                    <img src={phoneicon} alt="Phone Number: " />
+                                    <p>(405) 550-4352</p>
+                                </div>
+                            </li>
+                        </ul>
+    				</div>
+    				<div class = "column">
+    					<ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/jonathan-miller-9a803018b/" class="contact contact-button">
+                                    <img src={linkedinicon} alt="LinkedIn: " />
+                                    <p>https://www.linkedin.com/in/jonathan-miller-9a803018b/</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/jonathanmiller2" class="contact contact-button">
+                                    <img src={githubicon} alt="GitHub: " />
+                                    <p>https://github.com/jonathanmiller2</p>
+                                </a>
+                            </li>
+                        </ul>
+    				</div>
+    			</div>
         	</div>
-        </div>
+        </footer>
       </div>
     );
   }
