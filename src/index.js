@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import profilepic from './assets/images/profile-pic.png'
 
@@ -20,26 +21,26 @@ class Base extends React.Component {
     			<h1>Jonathan Miller</h1>
     			<p class="title-screen-subtitle">Interactive Resume</p>
     		</div>
-    		<a href="#profile-page" class = "nav down-button">
+            <Link className="nav down-button" to="profile-page" spy={true} smooth={true} duration={750} >
     			<span class = "down-arrow" />
-    		</a>
+    		</Link>
     	</section>
     	<section class = "nav nav-bar">
     		<ul>
     			<li>
-    				<a href="#profile-page" class="section-button">Profile</a>
+                    <Link activeClass="active section-button" className="section-button" to="profile-page" spy={true} smooth={true} duration={500} >Profile</Link>
     			</li>
     			<li>
-    				<a href="#projects-page" class="section-button">Projects</a>
+                    <Link activeClass="active section-button" className="section-button" to="projects-page" spy={true} smooth={true} duration={500} >Projects</Link>
     			</li>
     			<li>
-    				<a href="#skills-page" class="section-button">Skills</a>
+                    <Link activeClass="active section-button" className="section-button" to="skills-page" spy={true} smooth={true} duration={500} >Skills</Link>
     			</li>
     			<li>
-    				<a href="#history-page" class="section-button">History</a>
+                    <Link activeClass="active section-button" className="section-button" to="history-page" spy={true} smooth={true} duration={500} >History</Link>
     			</li>
     			<li>
-    				<a href="#contact-page" class="section-button">Contact</a>
+                    <Link activeClass="active section-button" className="section-button" to="contact-page" spy={true} smooth={true} duration={500} >Contact</Link>
     			</li>
     		</ul>
     	</section>
@@ -230,6 +231,16 @@ class Base extends React.Component {
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                             </span>
                         </li>
+                        <li>
+                            <span class = "skill-name">REEEE</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
                     </ul>
                     <ul class = "right column">
                         <li>
@@ -342,6 +353,16 @@ class Base extends React.Component {
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                             </span>
                         </li>
+                        <li>
+                            <span class = "skill-name">REEEE</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
                     </ul>
                 </div>
         	</div>
@@ -406,6 +427,7 @@ class Base extends React.Component {
                         </ul>
     				</div>
     			</div>
+                <div class = "spacing" />
         	</div>
         </footer>
       </div>

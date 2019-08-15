@@ -31,9 +31,9 @@ section.nav-bar {
   align-items: flex-start;
   justify-content: center;
 
-  background-color: #222222;
+  background-color: #AA11FF;
 
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px -5px;
 }
 
 .nav {
@@ -43,10 +43,6 @@ section.nav-bar {
   width:100px;
 
   z-index: 2;
-}
-
-.section-button:hover {
-  color:grey;
 }
 
 ul {
@@ -85,6 +81,15 @@ li {
   font-size: 1em;
   color:white;
 
+  background-color: #222222;
+}
+
+.section-button:hover {
+  color:grey;
+}
+
+.active { 
+  background-color: #21b2bf;
 }
 
 .down-button {
@@ -326,7 +331,5 @@ h4 {
 }
 
 .spacing {
-  margin-left: 20px;
-  font-size:6rem;
-  color:white;
+  margin: 25em 0 25em 0;
 }
