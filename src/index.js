@@ -70,7 +70,7 @@ class Base extends React.Component {
         <section id = "projects-page" class = "grey block">
         	<div class = "vertical-container">
         		<h2>Projects</h2>
-        		<p class = "subtitle">Projects projects projects projects</p>
+                <p class = "subtitle">"Knowledge is of no value unless you put it into practice." <br />Anton Chekhov</p>
         		<hr />
                 <h3>Programming</h3>
                 <div class = "horizontal-container">
@@ -116,7 +116,7 @@ class Base extends React.Component {
         <section id = "skills-page" class = "white block">
         	<div class = "vertical-container">
         		<h2>Skills</h2>
-        		<p class = "subtitle">Skills skills skills skills skills skills</p>
+        		<p class = "subtitle">"The natural desire of good men is knowledge." <br />Leonardo da Vinci</p>
         		<hr />
                 <h3>Computer Science</h3>
                 <div class = "horizontal-container">
@@ -232,7 +232,7 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">REEEE</span>
+                            <span class = "skill-name">DOS/Windows shell script</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
@@ -354,7 +354,7 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">REEEE</span>
+                            <span class = "skill-name">VBA</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
@@ -371,7 +371,7 @@ class Base extends React.Component {
         <section id = "history-page" class = "grey block">
         	<div class = "vertical-container">
     			<h2>History</h2>
-    			<p class="subtitle">History history history history history</p>
+    			<p class = "subtitle">"Time is the most valuable thing a man can spend." <br />Theophrastus</p>
     			<hr />
     			<h3>Education</h3>
     			<div class = "horizontal-container">
@@ -391,7 +391,7 @@ class Base extends React.Component {
         <footer id = "contact-page" class = "black block">
         	<div class = "vertical-container">
         		<h2>Contact</h2>
-        		<p class = "subtitle"> Contacts contact contact contact contact</p>
+        		<p class = "title-screen-subtitle">"The best time to make friends is before you need them." <br />Ethel Barrymore</p>
         		<hr />
         		<div class = "horizontal-container">
     				<div class = "column">
@@ -413,9 +413,9 @@ class Base extends React.Component {
     				<div class = "column">
     					<ul>
                             <li>
-                                <a href="https://www.linkedin.com/in/jonathan-miller-9a803018b/" class="contact contact-button">
+                                <a href="https://www.linkedin.com/in/jonathan-g-miller/" class="contact contact-button">
                                     <img src={linkedinicon} alt="LinkedIn: " />
-                                    <p>https://www.linkedin.com/in/jonathan-miller-9a803018b/</p>
+                                    <p>https://www.linkedin.com/in/jonathan-g-miller/</p>
                                 </a>
                             </li>
                             <li>
