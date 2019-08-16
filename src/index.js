@@ -132,16 +132,6 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">Python</span>
-                            <span class = "skill-score">
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                            </span>
-                        </li>
-                        <li>
                             <span class = "skill-name">JavaScript</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
@@ -152,17 +142,7 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">C#</span>
-                            <span class = "skill-score">
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                            </span>
-                        </li>
-                        <li>
-                            <span class = "skill-name">HTML 5</span>
+                            <span class = "skill-name">Python</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
@@ -182,16 +162,6 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">CSS 3</span>
-                            <span class = "skill-score">
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                            </span>
-                        </li>                       
-                        <li>
                             <span class = "skill-name">Node.js</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
@@ -202,65 +172,13 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">Express.js</span>
+                            <span class = "skill-name">NoSQL</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
-                            </span>
-                        </li>
-                        <li>
-                            <span class = "skill-name">React.js</span>
-                            <span class = "skill-score">
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                            </span>
-                        </li>
-                        <li>
-                            <span class = "skill-name">NoSQL (MongoDB)</span>
-                            <span class = "skill-score">
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                            </span>
-                        </li>
-                        <li>
-                            <span class = "skill-name">DOS/Windows shell script</span>
-                            <span class = "skill-score">
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                            </span>
-                        </li>
-                    </ul>
-                    <ul class = "right column">
-                        <li>
-                            <span class = "skill-name">Git / GitHub</span>
-                            <span class = "skill-score">
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                            </span>
-                        </li>
-                        <li>
-                            <span class = "skill-name">CSS 3</span>
-                            <span class = "skill-score">
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={emptystaricon} class="star" alt="Empty Star" />
                             </span>
                         </li>
                         <li>
@@ -272,7 +190,7 @@ class Base extends React.Component {
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                             </span>
-                        </li>
+                        </li>                       
                         <li>
                             <span class = "skill-name">Tensorflow</span>
                             <span class = "skill-score">
@@ -284,7 +202,7 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">HTTP / UDP / TCP / FTP</span>
+                            <span class = "skill-name">OOP</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
@@ -294,7 +212,7 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">Object Oriented Programming</span>
+                            <span class = "skill-name">JSON / XML</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
@@ -304,53 +222,35 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">Database Administration</span>
+                            <span class = "skill-name">Command Line Interface</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">Embedded Systems Software</span>
+                            <span class = "skill-name">Machine Learning</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
                             </span>
                         </li>
+                    </ul>
+                    <ul class = "right column">
                         <li>
-                            <span class = "skill-name">UML</span>
+                            <span class = "skill-name">C#</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                            </span>
-                        </li>
-                        <li>
-                            <span class = "skill-name">SEO</span>
-                            <span class = "skill-score">
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                            </span>
-                        </li>
-                        <li>
-                            <span class = "skill-name">XML / JSON</span>
-                            <span class = "skill-score">
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
                             </span>
                         </li>
                         <li>
@@ -360,7 +260,395 @@ class Base extends React.Component {
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">UML</span>
+                            <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">HTML 5</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">CSS 3</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">HTTP / UDP / TCP / FTP</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">DOS / Windows Shell Script</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Express.js</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>   
+                        <li>
+                            <span class = "skill-name">React.js</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Embedded Systems Programming</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Database Administration</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">SEO</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <hr />
+                <h3>Tools</h3>
+                <div class = "horizontal-container">
+                    <ul class = "left column">
+                        <li>
+                            <span class = "skill-name">Git / GitHub / Git Flow</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Autodesk Inventor</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Microsoft Office</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Google Suite</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">MongoDB</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">NPM</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Sublime Text</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>                       
+                        <li>
+                            <span class = "skill-name">Netbeans</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Eclipse</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Visual Studio</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">TeX Studio (LaTeX)</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Unity</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Windows OS</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">AutoHotkey</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                    </ul>
+                    <ul class = "right column">
+                        <li>
+                            <span class = "skill-name">Anaconda</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Pip</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Autodesk Revit</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Google Cloud Platform</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Windows Task Scheduler</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Windows IIS Manager</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>   
+                        <li>
+                            <span class = "skill-name">NI Multisim</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Windows Registry Editor</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">JCreator</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Notepad++</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Raspberry Pi</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Linux OS</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">Mac OS</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">FileZilla</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
                             </span>
                         </li>
                     </ul>
