@@ -54,14 +54,31 @@ class Base extends React.Component {
     			<div class = "horizontal-container">
     				<div class = "column">
     					<h3>About Me</h3>
-    					<p> But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </p>
+    					<p>I'm a skilled programmer currently going to school for ISE, with a minor in CS. I started programming at a very young age, and I already have 10 years of software development experience under my belt. My passion is automation. I love making scripts and macros to speed up my workflow. I'm diversifying into ISE because the automation in manufacturing processes is fascinating to me.</p>
     				</div>
     				<div class = "column">
     					<img class='pic' src={profilepic} alt="Profile Picture" />
     				</div>
     				<div class = "column">
     					<h3>Details</h3>
-    					<p> Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</p>
+    					<p>
+                            <strong>Name:</strong>
+                            <br />
+                            Jonathan Glen Miller
+                            <br />
+                            <strong>Age:</strong>
+                            <br />
+                            20 years
+                            <br />
+                            <strong>Location:</strong>
+                            <br />
+                            Norman, OK
+                            <br />
+                            <strong>Status:</strong>
+                            <br />
+                            Currently unemployed
+                            <br />
+                        </p>
     				</div>
     			</div>
     		</div>
@@ -75,20 +92,25 @@ class Base extends React.Component {
                 <h3>Programming</h3>
                 <div class = "horizontal-container">
                     <div class = "column-33">
-                        <h4>Project Name Project Name</h4>
-                        <p class = "date">Aug 2018 - Present</p>
+                        <strong>Personal Website</strong>
+                        <p class = "date">Aug 2019</p>
+                        <a href="https://github.com/jonathanmiller2/Personal-Website-Public" class="project icon-link icon-link-button">
+                                    <img src={githubicon} alt="GitHub: " />
+                                    <p>Github: /Personal-Website-Public</p>            
+                        </a>
                     </div>
                     <div class = "column">
-                        <strong>Descriptive Blurb Descriptive Blurb Descriptive Blurb</strong>
-                        <p>Main detail</p>
-                        <p>Other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail</p>
+                        <strong>I built this website from scratch using React and Node</strong>
+                        <p>This website was built using a React.js frontend with a Node.js backend.</p>
+                        <p>I created this website to help me get hired for an internship. I used other personal websites as inspiration, and I taught myself all of the skills I needed in two weeks.</p>
+                        <p>This project required skills in React, Node, Javascript, HTML, and CSS.</p>
                     </div>
                 </div>
                 <hr />
                 <h3>Product Development</h3>
                 <div class = "horizontal-container">
                     <div class = "column-33">
-                        <h4>Project Name Project Name</h4>
+                        <strong>Project Name Project Name</strong>
                         <p class = "date">Aug 2018 - Present</p>
                     </div>
                     <div class = "column">
@@ -101,7 +123,7 @@ class Base extends React.Component {
                 <h3>Screaming Eternally Into The Abyss</h3>
                 <div class = "horizontal-container">
                     <div class = "column-33">
-                        <h4>Project Name Project Name</h4>
+                        <strong>Project Name Project Name</strong>
                         <p class = "date">Jan 0001 - Present</p>
                     </div>
                     <div class = "column">
@@ -653,6 +675,54 @@ class Base extends React.Component {
                         </li>
                     </ul>
                 </div>
+                <hr />
+                <h3>Other</h3>
+                <div class = "horizontal-container">
+                    <ul class = "left column">
+                        <li>
+                            <span class = "skill-name">TBD</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">TBD</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                            </span>
+                        </li>
+                    </ul>
+                    <ul class = "right column">
+                        <li>
+                            <span class = "skill-name">TBD</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                        <li>
+                            <span class = "skill-name">TBD</span>
+                            <span class = "skill-score">
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
+                            </span>
+                        </li>
+                    </ul>
+                </div>
         	</div>
         </section>
 
@@ -664,7 +734,7 @@ class Base extends React.Component {
     			<h3>Education</h3>
     			<div class = "horizontal-container">
     				<div class = "column-33">
-    					<h4>University of Oklahoma</h4>
+    					<strong>University of Oklahoma</strong>
     					<p class = "date">Aug 2018 - Present</p>
     				</div>
     				<div class = "column">
@@ -685,13 +755,13 @@ class Base extends React.Component {
     				<div class = "column">
                         <ul>
                             <li>
-                                <a href="mailto:jonathanmiller2@hotmail.com" class="contact contact-button">
+                                <a href="mailto:jonathanmiller2@hotmail.com" class="icon-link icon-link-button">
                                     <img src={emailicon} alt="E-Mail: " />
-                                    <p class>jonathanmiller2@hotmail.com</p>
+                                    <p>jonathanmiller2@hotmail.com</p>
                                 </a>
                             </li>
                             <li>
-                                <div class = "contact">
+                                <div class = "icon-link">
                                     <img src={phoneicon} alt="Phone Number: " />
                                     <p>(405) 550-4352</p>
                                 </div>
@@ -701,13 +771,13 @@ class Base extends React.Component {
     				<div class = "column">
     					<ul>
                             <li>
-                                <a href="https://www.linkedin.com/in/jonathan-g-miller/" class="contact contact-button">
+                                <a href="https://www.linkedin.com/in/jonathan-g-miller/" class="icon-link icon-link-button">
                                     <img src={linkedinicon} alt="LinkedIn: " />
                                     <p>https://www.linkedin.com/in/jonathan-g-miller/</p>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/jonathanmiller2" class="contact contact-button">
+                                <a href="https://github.com/jonathanmiller2" class="icon-link icon-link-button">
                                     <img src={githubicon} alt="GitHub: " />
                                     <p>https://github.com/jonathanmiller2</p>
                                 </a>
