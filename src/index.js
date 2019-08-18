@@ -739,10 +739,72 @@ class Base extends React.Component {
     				</div>
     				<div class = "column">
     					<strong>Bachelor - Industrial and Systems Engineering Analytics</strong>
-    					<p>Minor in Computer Science</p>
-    					<p>College info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college info college college info college info college info college info college info college info college info</p>
+    				    <p>- Minor in Computer Science<br />
+    					- 4.0 GPA<br />
+                        - Dean's Honor Roll<br />
+                        - Treasurer for the Russian Club<br />
+                        - Member of the Table Tennis team<br />
+                        <br />
+                        My education includes understanding, evaluating, and improving the performance of entire technical and business systems. I learned statistics-based decision making for both engineering problems and larger-scale business problems. In addition, I have learned about the use of computer science to simulate deterministic and probabilistic system models.
+                        </p>
     				</div>
     			</div>
+                <div class = "horizontal-container">
+                    <div class = "column-33">
+                        <strong>Moore-Norman Technology Center</strong>
+                        <p class = "date">Aug 2016 - May 2018</p>
+                    </div>
+                    <div class = "column">
+                        <strong>Pre-Engineering</strong>
+                        <p>
+                        - 4.0 GPA<br />
+                        - Programmer for the MNTC FIRST Robotics team <br />
+                        <br />
+                        I took beginner engineering classes concurrently with my highschool education in order to better prepare myself for college. The courses I took included: <br />
+                        - Digital Electronics<br />
+                        - Civil Engineering and Achitecture<br />
+                        - Engineering Design & Development (Product design)<br />
+                        - Principles of Engineering (Engineering physics, Statistics)<br />
+                        - Introduction to Engineering Design (Schematics, Autodesk Inventor)
+                        </p>
+                    </div>
+                </div>
+                <div class = "horizontal-container">
+                    <div class = "column-33">
+                        <strong>Southmoore High School</strong>
+                        <p class = "date">Aug 2014 - May 2018</p>
+                    </div>
+                    <div class = "column">
+                        <strong>GED</strong>
+                        <p>- Valedictorian of a class of 500<br />
+                        - 4.0 GPA<br />
+                        - National Honor Society Officer<br />
+                        - Academic Team Member<br />
+                        </p>
+                    </div>
+                </div>
+                <hr />
+                <h3>Work History</h3>
+                <div class = "horizontal-container">
+                    <div class = "column-33">
+                        <strong>Self-Employed</strong>
+                        <p class = "date">Mar 2016 - Present</p>
+                    </div>
+                    <div class = "column">
+                        <strong>Part Time - Computational Finance</strong>
+                        <p>To support myself between jobs, I develop trading algorithms for the stock, options, FOREX, futures, and crypto markets. These algos usually involve machine learning and heavy statistics-based testing. Using my algorithms, as well as personal trading experience, I have achieved a 21% return on investment in the past year.</p>
+                    </div>
+                </div>
+                <div class = "horizontal-container">
+                    <div class = "column-33">
+                        <strong>Walmart</strong>
+                        <p class = "date">Aug 2016 - Jun 2018</p>
+                    </div>
+                    <div class = "column">
+                        <strong>Part Time - Cart Attendant</strong>
+                        <p>To support myself and my family, I worked 22-25 hour weekends for two years during highschool. I managed this on top of being Valedictorian of my graduating class, and while I was taking engineering classes at my vo-tech.</p>
+                    </div>
+                </div>
     		</div>
         </section>
 
