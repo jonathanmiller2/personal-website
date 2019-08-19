@@ -836,7 +836,7 @@ class Base extends React.Component {
                 <div class = "horizontal-container">
                     <div class = "column-33">
                         <strong>Self-Employed</strong>
-                        <p class = "date">Mar 2016 - Present</p>
+                        <p class = "date">Mar 2016 - Presently</p>
                     </div>
                     <div class = "column">
                         <strong>Part Time - Computational Finance</strong>
