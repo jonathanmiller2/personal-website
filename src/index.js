@@ -92,44 +92,92 @@ class Base extends React.Component {
                 <h3>Programming</h3>
                 <div class = "horizontal-container">
                     <div class = "column-33">
+                        <strong>Machine Learning in Python</strong>
+                        <p class = "date">Apr 2019 - Present</p>
+                        <a href="https://github.com/jonathanmiller2/Python-Stk-Public" class="project icon-link icon-link-button">
+                                    <img src={githubicon} alt="GitHub: " />
+                                    <p>/Python-Stk-Public</p>            
+                        </a>
+                    </div>
+                    <div class = "column">
+                        <strong>I Build Machine-Learning Asset Trading Algorithms Using Python</strong>
+                        <p>Both as a hobby, and to ease the costs of being a full-time student, I develop machine learning algorithms to identify profitable micro and macroeconomic trends. </p>
+                        <p>My algorithms include ensembles of DNN, RF, SVM, LSTM, Naive-Bayes, and RBFNN models for technical and statistical analysis. Presenly, I'm working on the addition of the new Transformer models for fundamental analysis.</p>
+                        <p>My models operate on data sampled from various sources, mostly online APIs. Those data are stored in locally hosted databases, and I use them to training and testing.</p>
+                        <p>I taught myself all of the finance, statistics, python, and machine learning prinicples required to make my algorithms profitable.</p>
+                    </div>
+                </div>
+                <div class = "horizontal-container">
+                    <div class = "column-33">
                         <strong>Personal Website</strong>
                         <p class = "date">Aug 2019</p>
                         <a href="https://github.com/jonathanmiller2/Personal-Website-Public" class="project icon-link icon-link-button">
                                     <img src={githubicon} alt="GitHub: " />
-                                    <p>Github: /Personal-Website-Public</p>            
+                                    <p>/Personal-Website-Public</p>            
                         </a>
                     </div>
                     <div class = "column">
-                        <strong>I built this website from scratch using React and Node</strong>
+                        <strong>I Built This Website from Scratch Using React/Node</strong>
                         <p>This website was built using a React.js frontend with a Node.js backend.</p>
-                        <p>I created this website to help me get hired for an internship. I used other personal websites as inspiration, and I taught myself all of the skills I needed in two weeks.</p>
+                        <p>I created this website to help me get hired for an internship. I used other personal websites as inspiration, with some customizations of my own. I taught myself all of the skills I needed in two weeks, and finished the project within a month.</p>
                         <p>This project required skills in React, Node, Javascript, HTML, and CSS.</p>
+                    </div>
+                </div>
+                
+                <div class = "horizontal-container">
+                    <div class = "column-33">
+                        <strong>Machine Learning in JS</strong>
+                        <p class = "date">Dec 2018 - Apr 2019</p>
+                        <a href="https://github.com/jonathanmiller2/Deep-Neural-Network-Public" class="project icon-link icon-link-button">
+                                    <img src={githubicon} alt="GitHub: " />
+                                    <p>/Deep-Neural-Network-Public</p>            
+                        </a>
+                    </div>
+                    <div class = "column">
+                        <strong>I Built a Deep Neural Network from Scratch Using JavaScript</strong>
+                        <p>I re-created a deep neural network by reading academic papers on machine learning and reverse engineering the math behind them. I did this in order to demonstrate my own programming skills, as well as learn the calculus that powers machine learning.</p>
+                        <p>I decided to create it in JavaScript in order to increase the difficulty of the project. JavaScript has none of the optimizations, data structures, or boilerplate code required for machine learning, so I coded them all myself.</p>
+                        <p>To read more about this project, I highly recommend you check out the readme on the GitHub page.</p>
                     </div>
                 </div>
                 <hr />
                 <h3>Product Development</h3>
                 <div class = "horizontal-container">
                     <div class = "column-33">
-                        <strong>Project Name Project Name</strong>
-                        <p class = "date">Aug 2018 - Present</p>
+                        <strong>OU Covered Walkways</strong>
+                        <p class = "date">Nov 2018 - Dec 2018</p>
                     </div>
                     <div class = "column">
-                        <strong>Descriptive Blurb Descriptive Blurb Descriptive Blurb</strong>
-                        <p>Main detail</p>
-                        <p>Other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail</p>
+                        <strong>I Led a Team of 5 in Developing Coverings for OU's Walkways</strong>
+                        <p>For our introductory engineering course at OU, we had to develop an engineering project with a presentable prototype.</p>
+                        <p>My idea was to develop a solution for students being rained on, snowed on, and sometimes hailed on. I did the CAD for the project, and did the woodworking for a physical model. The model included a pathway, simulated rain, and showed howed the coverings could be deployed with ease. Our project won 2nd in the class, out of 8.</p>
+                        <p>In the end, the project showed a lot of merit. However, we did not present it to the OU campus development officials, as I quickly moved on to other projects.</p>
+                    </div>
+                </div>
+                <div class = "horizontal-container">
+                    <div class = "column-33">
+                        <strong>Face-recognition Door Lock</strong>
+                        <p class = "date">Aug 2017 - May 2018</p>
+                    </div>
+                    <div class = "column">
+                        <strong>I Developed Face-recognition Door Locks for Schools</strong>
+                        <p>For Engineering Design and Development, the capstone course of my pre-engineering program, I had to create a marketable, sellable project.</p>
+                        <p>My idea was to develop intuitive locks for school doors that would speed up the process of attendance taking and lockdowns. Additionally, my design was motivated by preventing and mitigating the risk of school shootings.</p>
+                        <p>Throughout the course of the project, I developed several prototypes, did market research, and produced all of the documentation required for the patent process. Through this project I developed skills in research and detailed documentation, as well as programming skills, such as image processing, basic python, and Raspberry Pi-based development.</p>
                     </div>
                 </div>
                 <hr />
-                <h3>Screaming Eternally Into The Abyss</h3>
+                <h3>Other</h3>
                 <div class = "horizontal-container">
                     <div class = "column-33">
-                        <strong>Project Name Project Name</strong>
-                        <p class = "date">Jan 0001 - Present</p>
+                        <strong>Game Development</strong>
+                        <p class = "date">Jun 2019</p>
                     </div>
                     <div class = "column">
-                        <strong>Descriptive Blurb Descriptive Blurb Descriptive Blurb</strong>
-                        <p>Main detail</p>
-                        <p>Other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail other detail</p>
+                        <strong>I led a team of 4 for a Game Jam</strong>
+                        <p>A Game Jam is a competition where teams are given a topic, and have to develop a video game from scratch before a (usually short) deadline.</p>
+                        <p>The Game Jam we participated in was the Extra Credits Game Jam #4, which had a 100 hour (Thursday - Monday) time limit.</p>
+                        <p>In that time, we developed a game called Blobs and Bridges. Our game included various systems, such as: computer player AI, pathfinding algorithms, dense object-oriented code, complex shader programming, and dynamic click controls.</p>
                     </div>
                 </div>
         	</div>
@@ -680,7 +728,7 @@ class Base extends React.Component {
                 <div class = "horizontal-container">
                     <ul class = "left column">
                         <li>
-                            <span class = "skill-name">TBD</span>
+                            <span class = "skill-name">Extemporaneous Speaking</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
@@ -690,7 +738,7 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">TBD</span>
+                            <span class = "skill-name">Teaching / Tutoring</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
@@ -702,7 +750,7 @@ class Base extends React.Component {
                     </ul>
                     <ul class = "right column">
                         <li>
-                            <span class = "skill-name">TBD</span>
+                            <span class = "skill-name">Table Tennis</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
@@ -712,12 +760,12 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">TBD</span>
+                            <span class = "skill-name">Russian</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
-                                <img src={filledstaricon} class="star" alt="Filled Star" />
+                                <img src={emptystaricon} class="star" alt="Empty Star" />
                                 <img src={emptystaricon} class="star" alt="Empty Star" />
                             </span>
                         </li>
