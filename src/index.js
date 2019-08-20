@@ -404,7 +404,7 @@ class Base extends React.Component {
                             </span>
                         </li>
                         <li>
-                            <span class = "skill-name">Embedded Systems Programming</span>
+                            <span class = "skill-name">Embedded Systems</span>
                             <span class = "skill-score">
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
                                 <img src={filledstaricon} class="star" alt="Filled Star" />
