@@ -21,7 +21,6 @@ section.nav-bar {
 
   position: -webkit-sticky;
   position: sticky;
-  top:0;
 
   top: 50px;
   height:400px;
@@ -32,6 +31,8 @@ section.nav-bar {
   justify-content: center;
 
 
+  margin: 0;
+  padding: 0;
 
   background-color: #AA11FF;
 
@@ -45,6 +46,9 @@ section.nav-bar {
   width:100px;
 
   z-index: 2;
+
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -161,6 +165,7 @@ li {
   padding:0;
 
   position: relative;
+
 }
 
 .horizontal-container {
@@ -176,7 +181,7 @@ li {
 .column {
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 5em;
+  flex-basis: 33%;
 
   margin: 0em 1em 2em 1em;
 }
@@ -196,7 +201,9 @@ li {
   justify-content: center;
   position: relative;
 
-  margin: auto 29%;
+  width: 1000px;
+  left: 50vw;
+  transform: translateX(-50%);
 }
 
 .title-screen-subtitle {
@@ -256,7 +263,7 @@ li {
 .vertically-centered-in-screen {
   position: relative;
   top:50%;
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
 }
 
 hr {
@@ -357,5 +364,13 @@ h4 {
 }
 
 @media screen and (max-width: 800px) {
+  .vertical-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
   
+    margin: auto 29vw;
+  }
 }
