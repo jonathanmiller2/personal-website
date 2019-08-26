@@ -364,12 +364,17 @@ h4 {
   margin: 10em 0 10em 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1224px) {
+
+  html {
+    background: #000000;
+  }
+
   .vertical-container {
     width: 500px;
   }
 
-  .h1 { 
+  h1 { 
     justify-content: center;
     text-align: center;
   }
