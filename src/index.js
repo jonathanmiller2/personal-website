@@ -189,6 +189,154 @@ class Base extends React.Component {
             	<div class = "vertical-container">
             		<h2>Skills</h2>
             		<p class = "subtitle">"The natural desire of good men is knowledge." <br />Leonardo da Vinci</p>
+                    <hr />
+                    <h3>Industrial Engineering</h3>
+                    <div class = "horizontal-container">
+                        <ul class = "left column">
+                            <li>
+                                <span class = "skill-name">Project Management</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Operations Research</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Deterministic Systems Models</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Decision Analysis</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Descriptive Statistics</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Inferential Statistics</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Production Systems</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                </span>
+                            </li>                       
+                        </ul>
+                        <ul class = "right column">
+                            <li>
+                                <span class = "skill-name">Supply Chain Management</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Correlation Statistics</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Quality Management</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Capacity and Facility Design</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Productivity Analysis</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Ergonomics</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                </span>
+                            </li>
+                            <li>
+                                <span class = "skill-name">Material Science</span>
+                                <span class = "skill-score">
+                                    <img src={filledstaricon} class="star" alt="Filled Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                    <img src={emptystaricon} class="star" alt="Empty Star" />
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
             		<hr />
                     <h3>Computer Science</h3>
                     <div class = "horizontal-container">
@@ -795,7 +943,12 @@ class Base extends React.Component {
                             - Treasurer for the Russian Club<br />
                             - Member of the Table Tennis team<br />
                             <br />
-                            My education includes understanding, evaluating, and improving the performance of entire technical and business systems. I learned statistics-based decision making for both engineering problems and larger-scale business problems. In addition, I have learned about the use of computer science to simulate deterministic and probabilistic system models.
+                            My education includes understanding, evaluating, and improving the performance of entire technical and business systems.
+                            <br />
+                            I have completed courses in: engineering statistical analysis, deterministic systems models, operations research, data-driven decision making, data structures, as well as courses in CAD. engineering physics, product design, and many other related topics.
+                            <br />
+                            I am currently taking courses in: material science, manufacturing processes, ergonomics, probabilistic systems models, and quality/reliability engineering.
+
                             </p>
         				</div>
         			</div>
