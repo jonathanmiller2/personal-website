@@ -91,6 +91,32 @@ class Base extends React.Component {
             		<h2>Projects</h2>
                     <p class = "subtitle">"Knowledge is of no value unless you put it into practice." <br />Anton Chekhov</p>
             		<hr />
+                    <h3>Industrial Engineering</h3>
+                    <div class = "horizontal-container">
+                        <div class = "column-33">
+                            <strong>Systems Optimization</strong>
+                            <p class = "date">Aug 2019 - Present</p>
+                        </div>
+                        <div class = "column">
+                            <strong>I can optimize any system, from manufacturing to finance</strong>
+                            <p>As a part of my coursework, I do a significant amount of system modeling. For example, say you have a thousand different products, each with different demands and different prices. I can tell you the exact quanitity of each product that will result in your optimal profit.</p>
+                            <p>Another common example are scheduling problems. I can model for you the perfect schedule for thousands of employees under whatever possible circumstances.</p>
+                            <p>Usually, this involves the python optimizer Gurobi, but I also use the Excel add-on OpenSolver.</p>
+                        </div>
+                    </div>
+                    <div class = "horizontal-container">
+                        <div class = "column-33">
+                            <strong>Data Driven Decision Making</strong>
+                            <p class = "date">Aug 2018 - Present</p>
+                        </div>
+                        <div class = "column">
+                            <strong>I use statistics to make optimal decisions in any situation</strong>
+                            <p>Systems optimization is helpful for systems in which all of the variables and constraints are known. However, you don't always have a complete model of the real world. That's when statistics kicks in. I regularly make statistical analyses of basically any situation with numbers attached, regardless of how difficult the system is to model.</p>
+                            <p>A common example is finding statistical differences between processes. Say you have a thousand different employees, and you want to give the top 10% fastest employees a raise. Using statistical methods, I can tell you exactly which employees are the best performers with any degree of certainty you want.</p>
+                            <p>A lot of my experience with statistics is in R or in Excel, but I've also done a significant amount of statistics by hand.</p>
+                        </div>
+                    </div>
+                    <hr />
                     <h3>Programming</h3>
                     <div class = "horizontal-container">
                         <div class = "column-33">
