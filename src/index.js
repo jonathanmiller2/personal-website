@@ -94,6 +94,18 @@ class Base extends React.Component {
                     <h3>Industrial Engineering</h3>
                     <div class = "horizontal-container">
                         <div class = "column-33">
+                            <strong>Process Improvement</strong>
+                            <p class = "date">July 2015</p>
+                        </div>
+                        <div class = "column">
+                            <strong>I find creative and innovative improvements to existing systems</strong>
+                            <p>I improved a maintainance process for a bowling alley. The process was a replacement of a bolts that had snapped inside a pinsetter. Before my improvement, repairing snapped bolts required replacing the part the bolt was stuck in.</p>
+                            <p>I devised a new solution, which involved drilling out the larger bolt, and sinking a smaller one in with opposite threads, which would be tightened to loosen the outer bolt.</p>
+                            <p>The new solution saved around $1,500 in monthly repair costs and reduced the maintainance time from a multiple day job to a 20 minute fix.</p>
+                        </div>
+                    </div>
+                    <div class = "horizontal-container">
+                        <div class = "column-33">
                             <strong>Systems Optimization</strong>
                             <p class = "date">Aug 2019 - Present</p>
                         </div>
